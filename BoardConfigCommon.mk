@@ -48,9 +48,6 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 # CMHW
 BOARD_HARDWARE_CLASS += $(COMMON_PATH)/lineagehw
 
-# Extended Filesystem Support
-TARGET_EXFAT_DRIVER := sdfat
-
 # Filesystem
 TARGET_FS_CONFIG_GEN += device/samsung/hlte-common/config.fs
 
