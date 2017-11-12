@@ -28,6 +28,7 @@
 
 import /system/vendor/etc/init/hw/init.qcom.usb.rc
 import /system/vendor/etc/init/hw/init.target.rc
+import /system/vendor/etc/init/hw/init.safailnet.rc
 
 on early-init
     setprop sys.boot_completed 0
