@@ -28,4 +28,9 @@
     <!-- Ignore SystemUI Notch -->
     <bool name="hide_view_behind_notch">true</bool>
 
+    <!-- If true, enable the advance anti-falsing classifier on the lockscreen. On some devices it
+         does not work well, particularly with noisy touchscreens. Note that disabling it may
+         increase the rate of unintentional unlocks. -->
+    <bool name="config_lockscreenAntiFalsingClassifierEnabled">true</bool>
+
 </resources>
