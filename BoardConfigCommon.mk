@@ -64,6 +64,7 @@ BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8974
 BOARD_ROOT_EXTRA_FOLDERS := efs firmware firmware-modem persist
+BOARD_ROOT_EXTRA_SYMLINKS := /data/tombstones:/tombstones
 
 # Legacy BLOB Support
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
