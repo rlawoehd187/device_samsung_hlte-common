@@ -24,6 +24,13 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 # Havoc-OS Official
 export export HAVOC_BUILD_TYPE=Official
 
+# Adb Insecure
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
