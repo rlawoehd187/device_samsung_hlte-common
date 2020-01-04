@@ -61,6 +61,10 @@ rild.libpath=/system/vendor/lib/libsec-ril.so
 ro.ril.telephony.qan_resp_strings=6
 ro.telephony.mms_data_profile=5
 
+# Store correct IMSI when retreived from SIMRecords 
+#and use it for RuimRecords
+ro.telephony.get_imsi_from_sim=true
+
 # Sensors
 debug.sensors=1
 
