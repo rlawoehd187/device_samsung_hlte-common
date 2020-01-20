@@ -78,6 +78,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
 
+# IR
+PRODUCT_PACKAGES += \
+    consumerir.msm8974
+
+# AOSP keyhandler
+PRODUCT_PACKAGES += \
+    LolzHandler
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl \

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2020 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +23,7 @@ import android.view.WindowManager;
 
 import com.android.internal.os.DeviceKeyHandler;
 
-public class KeyHandler implements DeviceKeyHandler {
+public class LolzHandler implements DeviceKeyHandler {
 
     private static final int KEY_PEN_DTU = 0x2f1;
     private static final int KEY_PEN_UTD = 0x2f2;
@@ -68,7 +69,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private final Context mContext;
 
-    public KeyHandler(Context context) {
+    public LolzHandler(Context context) {
         mContext = context;
     }
 
