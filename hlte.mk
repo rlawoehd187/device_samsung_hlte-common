@@ -83,9 +83,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-impl \
-    android.hardware.light@2.0-service \
-    lights.MSM8974
+    android.hardware.light@2.0-service.samsung
 
 # Media
 PRODUCT_COPY_FILES += \
