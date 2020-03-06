@@ -266,7 +266,7 @@ key -->
     <!-- Disable rounded corners on windows to improve graphics performance -->
     <bool name="config_supportsRoundedCornersOnWindows">false</bool>
 
-    <!-- Hardware keys present on the device, stored as 
+    <!-- Hardware 'face' keys present on the device, stored as 
 a bit field.
           This integer should equal the sum of the 
 corresponding value for each
@@ -277,11 +277,10 @@ corresponding value for each
               8 - Assistant (search)
              16 - App switch
              32 - Camera
-             64 - Volume rocker
           For example, a device with Home, Back and 
 Menu keys would
           set this config to 7. -->
-    <integer name="config_deviceHardwareKeys">71</integer>
+    <integer name="config_deviceHardwareKeys">7</integer>
 
     <!-- Enable home button wake  -->
     <bool name="config_HomeWakeButton">true</bool>
