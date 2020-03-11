@@ -20,8 +20,10 @@
 #define BTM_DEF_LOCAL_NAME   "Samsung Galaxy Note 3"
 
 #define BTA_DISABLE_DELAY 100 /* in milliseconds */
-#define BTM_WBS_INCLUDED TRUE
-#define BTIF_HF_WBS_PREFERRED TRUE
-#define BLE_VND_INCLUDED TRUE
+#define SC_MODE_INCLUDED FALSE
+#define SDP_DEBUG FALSE
+#define BTSNOOP_MEM FALSE
+#define BTM_WBS_INCLUDED TRUE /* Enable WBS */
+#define BTIF_HF_WBS_PREFERRED FALSE /* Do not prefer WBS */
 
 #endif
