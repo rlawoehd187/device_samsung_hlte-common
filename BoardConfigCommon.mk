@@ -104,6 +104,7 @@ TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 BOARD_PROVIDES_LIBRIL := true
 
 # Recovery
+TARGET_RECOVERY_DENSITY := xhdpi
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
