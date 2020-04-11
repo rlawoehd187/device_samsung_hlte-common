@@ -46,6 +46,9 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 # CMHW
 BOARD_HARDWARE_CLASS += $(COMMON_PATH)/lineagehw
 
+# Disable face Unlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN += device/samsung/hlte-common/config.fs
 
