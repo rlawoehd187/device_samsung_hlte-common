@@ -47,7 +47,6 @@ ro.qc.sdk.izat.service_mask=0x0
 ro.havoc.maintainer=Jprimero15
 
 # Media
-debug.stagefright.ccodec=0
 debug.stagefright.omx_default_rank=0
 debug.stagefright.omx_default_rank.sw-audio=1
 
