@@ -315,4 +315,8 @@ Menu keys would
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
+
+    <!-- Enable Recents on long press menu button -->
+    <integer name="config_longPressOnMenuKeyBehavior">2</integer>
+
 </resources>
