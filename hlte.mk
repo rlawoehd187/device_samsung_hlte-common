@@ -98,14 +98,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.samsung
 
-# LOS Recorder
-PRODUCT_PACKAGES += \
-    Recorder
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/configs/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml
+
+# OnePlus Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
 
 # Permissions
 PRODUCT_COPY_FILES += \
