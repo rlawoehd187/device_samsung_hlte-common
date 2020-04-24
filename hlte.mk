@@ -73,9 +73,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FlipFlap
 
-# Gestures
+# Keyhandler
 PRODUCT_PACKAGES += \
-    org.lineageos.keyhandler
+    KeyHandler
 
 # Input device
 PRODUCT_COPY_FILES += \
