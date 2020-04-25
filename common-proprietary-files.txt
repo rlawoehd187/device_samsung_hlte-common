@@ -44,9 +44,8 @@ lib/libmmcamera_cac2_lib.so:vendor/lib/libmmcamera_cac2_lib.so
 lib/libmmcamera_fidelix_eeprom.so:vendor/lib/libmmcamera_fidelix_eeprom.so
 lib/libmmcamera_s5k6b2yx.so:vendor/lib/libmmcamera_s5k6b2yx.so
 lib/libmmcamera2_stats_algorithm.so:vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmqjpeg_codec.so|320e6bc360161ba2558414e1c1b79de87a4113ae
-vendor/lib/libmmjpeg.so|2b0bf12bbb7b63c84db77f922d18a4a335634930
-vendor/lib/libmmjpeg_interface.so|91e1443ff48a2ac5990eaf492b68056003dfb1ab
+lib/libmmqjpeg_codec.so:vendor/lib/libmmqjpeg_codec.so
+lib/libmmjpeg_interface.so:vendor/lib/libmmjpeg_interface.so
 lib/libqomx_core.so:vendor/lib/libqomx_core.so
 lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so
 lib/libvdis.so:vendor/lib/libvdis.so
@@ -250,10 +249,6 @@ vendor/lib/libdrmtime.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
 vendor/lib/libQSEEComAPI.so
-
-# IPC router security
-bin/irsc_util:vendor/bin/irsc_util
-etc/sec_config:vendor/etc/sec_config
 
 # IPv6 Tethering
 bin/radish:vendor/bin/radish
